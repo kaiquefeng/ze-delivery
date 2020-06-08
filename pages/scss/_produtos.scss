@@ -1,0 +1,30 @@
+.products-container {
+
+  .container-cards {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 45px;
+
+    .card {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 9px;
+      text-align: center;
+      margin: 15px;
+
+      img {
+        width: 200px;
+      }
+
+      p {
+        margin-top: 10px;
+        border: 2px solid #FFCD01;
+        border-radius: 3px;
+        padding: 10px;
+        font-weight: 600;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,26 @@
+.como-funciona {
+    text-align: center;
+    margin: 40px 15px 90px 15px;
+
+    .icons-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    
+        .informacoes {
+            text-align: center;
+            padding: 25px;
+        }
+    }
+
+    h1 {
+        color: #FFCD01;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+}
+
